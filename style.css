@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    background-color: rgba(44, 77, 51, 0.747);
+    background-image: url(1.jpeg);
+    background-blend-mode:exclusion;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto 5vw 5vw auto;
+    margin-top: 10%;
+    text-align: center;
+    justify-content: center;
+
+
+    
+}
+p{
+    text-align: center;
+}
+
+.circle{
+    text-align: center;
+    font-size: medium;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: beige;
+    background-color: rgb(135, 181, 219); 
+    
+}
+.myButton {
+    box-shadow:inset 0px -3px 7px 0px #29bbff;
+    background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+    background-color:#2dabf9;
+    border-radius:3px;
+    border:1px solid #0b0e07;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    padding:9px 23px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #263666;
+    
+}
+.myButton:hover {
+    background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+    background-color:#0688fa;
+}
+.myButton:active {
+    position:absolute;
+    top: 0.1vw;
+}
+#adet{
+    width: 10vw;
+    height: 1.5vw;
+    border-radius: 50vw;
+    text-align: center;
+    font-size: 1vw;
+}
+
+
+.try{
+  position: absolute;
+  align-items: center;
+  left: 42%;
+   
+}
+.circle{
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-size: x-large;
+}
+.ball7, .ball15, .ball23, .ball31, .ball39 {
+    background-color: crimson;
+    color: black;
+}
+.ball8, .ball16, .ball24, .ball32, .ball40 {
+    background-color: white;
+    color: black;
+}
