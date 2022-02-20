@@ -74,6 +74,7 @@ p{
   position: absolute;
   align-items: center;
   left: 42%;
+  top: 60%;
    
 }
 .circle{
@@ -88,4 +89,12 @@ p{
 .ball8, .ball16, .ball24, .ball32, .ball40 {
     background-color: white;
     color: black;
+}
+footer{
+    position: absolute;
+    width: 20%;
+    bottom: 1vw;
+    left: 35%;
+    text-align: center;
+    background-color: snow;
 }
